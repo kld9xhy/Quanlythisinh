@@ -30,7 +30,6 @@ int main() {
 			int sbd;
 			cout << "Nhap vao so bao danh thi sinh can tim kiem: ";
 			cin >> sbd;
-			cout << "Thi sinh co so bao danh la " << sbd << " la:\n";
 			ts.timKiemTS(sbd);
 			cout << "--------------------\n";
 			break;

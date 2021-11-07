@@ -49,9 +49,13 @@ void TuyenSinh::inDsDuThi() {
 }
 
 void TuyenSinh::timKiemTS(int sbd) {
+	bool timthay = false;
 	for (ThiSinh *ts : dsts) {
 		if (sbd == ts->getSbd()) {
+			cout << "Thi sinh co so bao danh la " << sbd << " la:\n";
 			ts->inThongTin();
+			timthay = true;
 		}
 	}
+	if (!timthay) cout << "Khong tim thay thi sinh can tim!!!" << endl;
 }
