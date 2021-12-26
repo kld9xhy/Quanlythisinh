@@ -7,6 +7,7 @@ int main() {
 
 	while (luachon != 4) {
 
+		cout << "20173193 - Ngo Quoc Khanh - 709155\n";
 		cout << "\n-----Lua chon chuc nang-----\n";
 		cout << "1. Nhap danh sach thi sinh\n";
 		cout << "2. Hien thi thong tin thi sinh\n";
